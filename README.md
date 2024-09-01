@@ -1,1 +1,1 @@
-The files here includes my tam journey toears making a fitness-planner website, from scratch 
+The files here includes me and my team journey toears making a fitness-planner website, from scratch 
