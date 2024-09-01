@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fitness Planner</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/97ebdf5864.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Fixed Navigation Bar -->
+<ul class="nav__links">
+    <li class="link"><a href=""><img src="logo.png" alt="Logo"></a></li>
+    <li class="link"><a href="home.php">Home</a></li>
+    <li class="link"><a href="planner.php">Planner</a></li>
+    <li class="link"><a href="#">Service</a></li>
+    <li class="link"><a href="profile.php">Profile</a></li>
+    <li class="link"><a href="#">Community</a></li>
+</ul>
+
+<!-- Main Content -->
+<div class="main-content">
+    <div class="container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <input type="text" name="username" id="username" required>
+                <label for="username">Username</label>
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="form-group">
+                <input type="password" name="password" id="password" required>
+                <label for="password">Password</label>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <p>
+                <input type="checkbox" name="remember"> Remember Me 
+                <a href="#">Forget Password?</a>
+            </p>
+
+            <input id="btn" type="submit" value="Login">
+
+            <p>Don't have an account? <a href="register.php">Register</a></p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

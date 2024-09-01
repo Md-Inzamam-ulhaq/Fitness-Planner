@@ -170,6 +170,8 @@ nav {
 
 .header__image {
   position: relative;
+  height: 100%;
+  box-shadow: #d1d5db;
 }
 
 .header__image::before {

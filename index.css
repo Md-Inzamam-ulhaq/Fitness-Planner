@@ -1,0 +1,13 @@
+#div1{ 
+    border: 2px solid black;
+    text-align: center; 
+    margin: auto;
+    width: 50%; 
+    padding: 20px;
+    border: 1px solid white;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 

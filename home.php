@@ -20,6 +20,7 @@ if (isset($_SESSION['success_msg'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Planner - Home</title>
     <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/97ebdf5864.js" crossorigin="anonymous"></script>
     <style>
         .alert-msg {
             position: fixed;
@@ -39,10 +40,10 @@ if (isset($_SESSION['success_msg'])) {
     <!-- Navigation Bar -->
     <nav>
         <div class="nav__logo">
-            <a href="#"><img src="Logo-removebg-preview.png" alt="logo"></a>
+            <a href="#"><img src="logo.png" alt="Logo"></a>
         </div>
         <ul class="nav__links">
-            <li class=""><a href="home.php">Home</a></li>
+            <li class="link"><a href="home.php">Home</a></li>
             <li class="link"><a href="planner.php">Planner</a></li>
             <li class="link"><a href="#">Service</a></li>
             <li class="link"><a href="profile.php">Profile</a></li>
@@ -80,7 +81,7 @@ if (isset($_SESSION['success_msg'])) {
             <a href="planner.php"><button class="btn">Get Started</button></a>
         </div>
         <div class="header__image">
-            <img src="BB.png" alt="header">
+            <img src="header.png" alt="Header Image">
         </div>
     </header>
 
@@ -101,7 +102,7 @@ if (isset($_SESSION['success_msg'])) {
                     Embrace the essence of strength as we delve into its various
                     dimensions: physical, mental, and emotional.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="#">Learn More<i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="explore__card">
                 <span><i class="ri-heart-pulse-fill"></i></span>
@@ -110,7 +111,7 @@ if (isset($_SESSION['success_msg'])) {
                     It encompasses activities that improve health, strength,
                     flexibility, and overall well-being.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="#">Learn More<i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="explore__card">
                 <span><i class="ri-run-line"></i></span>
@@ -119,7 +120,7 @@ if (isset($_SESSION['success_msg'])) {
                     Through a combination of workouts and expert guidance, we'll
                     empower you to reach your goals.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="#">Learn More<i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="explore__card">
                 <span><i class="ri-shopping-basket-fill"></i></span>
@@ -128,7 +129,7 @@ if (isset($_SESSION['success_msg'])) {
                     Designed for individuals, our program offers an effective approach
                     to gaining weight sustainably.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="#">Learn More<i class="ri-arrow-right-line"></i></a>
             </div>
         </div>
     </section>
@@ -138,7 +139,7 @@ if (isset($_SESSION['success_msg'])) {
         <span class="bg__blur"></span>
         <span class="bg__blur footer__blur"></span>
         <div class="footer__col">
-            <div class="footer__logo"><img src="logo.png" alt="logo"></div>
+            <div class="footer__logo"><img src="logo.png" alt="Logo"></div>
             <p>
                 Take the first step towards a healthier, stronger you with our
                 unbeatable pricing plans. Let's sweat, achieve, and conquer together!
